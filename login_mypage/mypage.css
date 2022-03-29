@@ -1,0 +1,119 @@
+body{
+  margin: 0 auto;
+  background-color: #f8f8f8;
+  /* flexboxの設定 */
+  display: flex;
+  /* flexboxを横並びに変更 */
+  flex-direction: column;
+  /* 高さの最小値（ブラウザの画面の高さを指定） */
+  min-height: 100vh;
+}
+
+header{
+  width:100%;
+  height: 80px;
+  background-color: white;
+  box-shadow: 2px 2px 4px lightgray;
+  text-align: center;
+}
+
+header img{
+  margin-top: 15px;
+  height: 50px;
+  padding-left: 40px;
+}
+
+.log_out{
+  float: right;
+  margin-top: 50px;
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+main{
+  clear: left;
+  width: 100%;
+}
+
+.confirm{
+  margin:0 auto;
+  border: lightgray solid 2px;
+  width: 600px;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  box-shadow: 4px 4px 4px lightgray;
+  padding: 1em 2em;
+}
+
+h2{
+  text-align: center;
+  border-bottom: solid 2px #31a263;
+  font-size: 20px;
+}
+
+.hello{
+  text-align: left;
+  margin-bottom: 1em;
+}
+
+.profile_pic{
+  float: left;
+  margin-right: -8em;  
+}
+
+.profile_pic img{
+  width:40%;
+  border: 3px solid lightgray;
+  padding: 0.5em 0.3em;
+  margin-left: 1em;
+}
+
+.basic_info{
+  text-align: left;
+  margin-top: 2.5em;
+}
+
+.basic_info input{
+  width: 40%;
+  font-size:1em;
+}
+
+.comments{
+  clear:left;
+  text-align: left;
+  margin-top: 3em;
+  border-top: 1px dotted lightgray;
+  padding-top: 1em;
+  margin-bottom: 2em;
+}
+
+
+.form_center{
+  text-align: center;
+}
+
+.submit_button{
+  border: 1px solid lightgray;
+  padding: 6px 10px 4px 10px;
+  color: white;
+  background-color: #31a263;
+  border-radius: 5px;
+  border-bottom: solid 2px gray;
+  width: 140px;
+  margin-bottom: 15px;
+}
+
+footer{
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  color: gray;
+  text-align: center;
+  line-height: 40px;
+  font-size: 13px;
+  border-top: lightgray solid 2px;
+  /* 上部の余白を埋める（最下部に押される） */
+  margin-top: auto;
+}
